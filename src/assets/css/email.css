@@ -1,0 +1,94 @@
+.ant-tabs-nav-list > .ant-tabs > .atn-tabs-tab {
+    padding: 0 0 !important;
+}
+
+.checkbox-container {
+    padding: 12px 0 !important;
+}
+
+
+.tab-inner {
+    width: 100%;
+    position: relative;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex: 1;
+    position: relative;
+    user-select: none;
+}
+
+.mail-underline {
+    position: absolute;
+    bottom: -14px;
+    left: -6px;
+    right: 0;
+    height: 2px;
+    border-radius: 50px;
+    background: #4C8691;
+}
+
+.tab-inner {
+    transition: all duration-300;
+}
+
+/* .tab-inner:hover {
+    background-color: rgb(243 244 246);
+    border-radius: 50px;
+    transition: all duration-300;
+} */
+
+/* for mail delete button toggle */
+.mail-container {
+    overflow: hidden;
+    cursor: pointer;
+    transition: all 0.2s ease-in;
+}
+
+.mail-container-scale:hover {
+    background-color: #F6F9FD;
+    /* transform: scale(1.01); */
+    transition: all 0.2s ease-in;
+}
+
+.dark .mail-container-scale:hover {
+    background-color: #22262F;
+}
+
+.mail-container:hover .mail-delete-container {
+    display: block;
+    transition: all 0.5s ease;
+}
+
+.mail-delete-container {
+    display: none;
+    transition: all 0.5s ease;
+}
+
+.mail-delete-container:hover {
+    background-color: #FFE7E7;
+    color: #e83030;
+}
+
+/* filter container */
+.filter-container:hover {
+    background-color: rgb(243 244 246);
+    border-radius: 50px;
+    transition: all duration-300;
+}
+
+.ant-btn {
+    background: #EAF0FA !important;
+    border-radius: 50px;
+    color: rgb(75 85 99) !important;
+    border: 0;
+    transition: all 0.5s ease;
+}
+
+.ant-btn:hover {
+    background-color: rgb(243 244 246) !important;
+    color: rgb(75 85 99) !important;
+    transition: all 0.5s ease;
+}
+
